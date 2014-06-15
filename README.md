@@ -8,7 +8,7 @@ Getting and Cleaning Data
 
 An experiment was conducted regarding the recognition of the human activity using the smart phones. A “Human Activity Recognition Database” has been built from this experiment from the recordings of accelerometer and gyroscope of smartphones worn by 30 volunteers performing daily living activities. The database has been partitioned in test data and training data.
 
-For more information on this experiment and how the database was built, please refer to the following link:[Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+For more information on this experiment and how the database was built, please refer to the following link: [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 
 
 ### Data Set Information
@@ -19,7 +19,7 @@ A second data set is also created with the average of each variable for each act
 
 
  
-### HOW THE DATA ARE EXTRACTED AND SUMMARIZED:
+### How the data are extracted and summarized:
 
 The source database has the following files and subfolders:
 

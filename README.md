@@ -58,7 +58,7 @@ Each record of the *test* and *training* data sets has 561 variables of smartpho
 From the `features` data set, it will extract proper variable names selecting only those with mean (`mean()`) and standard deviation (`std()`) within the original variable names. In this case, out of the 561 only 66 variables are selected which are stored in vector called **`measures`**.  
 
 
-* **Combine the Test and Training Data Sets**
+* **Combine the Test Data Sets**
 
 Combine the three **Test Data Sets** (`x_test.txt`, `y_test.txt` and `subject_test.txt` into one dataset.
 First load the `x_test.txt` temporarily (into `xtest`) then read extract into another temporary object selecting only the 66 variables (into `testsubset`).
@@ -68,17 +68,18 @@ Finally, combine into the data frame the `subject_test`, `testactivity`, `settyp
 
 The resulting combined data frame is stored temporarily to data frame `testdata`
 
-**Combining the Train Data Set** is also very similar except for the `settype` value of `train`. 
+* **Combine the Train Data Set** 
+
+Combining the Train Data Set is also very similar to Test Data Sets except for the `settype` value of `train`. 
 The resulting combined train data is stored in data frame called **`mergedset`**.
 
-After creating the Train Data Set into `mergedset` data frame, append to it the `testdata`.
+* **Append the Test Data into Training Data sets**
 
+After creating the Train Data Set into `mergedset` data frame, append to it the `testdata`.
 At this point, the end result of `mergedset` is the combined and merged means and standard deviations of training and test data sets. This data frame is written as an output file with name **`mergedset.txt'**.
 
-* **Generating Summarized Average Data Sets**
+* **Generate the Summarized Average Data Sets**
 
 Finally, generate a separate data set with the average of each variable as group by subject and each activity.
 The dataset in the script that holds this averages is called **`averages`** and it is generated as an output of the script with the file named **averages.txt**.
-
-
 

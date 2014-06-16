@@ -45,6 +45,8 @@ This repository contains R script file named **`run_analysis.R`**. When the scri
 * **`mergedset.txt`** -- this is the optional file to show the main data source of the **`aveages.txt`** to analyze further how each average in `averages.txt` is obtained. This file contains the merged **training** and **test** data sets of `Human Activity Recognition Database` with various mean and standard deviation readings. It also contains a variable called `settype` to identify records from test set and training set.
 
 
-Please refer to the document [**CodeBook.md**](https://github.com/rodmel/CleaningData/blob/master/CodeBook.md) for the structure and definition of the `averages.txt` and `mergedset.txt` data sets.
+### CodeBook
+
+For more information on how the data are extracted and how the cleanup is peformed as well as the structure of the output file, Please refer to the document [**CodeBook.md**](https://github.com/rodmel/CleaningData/blob/master/CodeBook.md).
 
 

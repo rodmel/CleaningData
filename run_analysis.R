@@ -1,3 +1,7 @@
+## Human Activity Recognition Extraction and Summary 
+## version 1.0
+## By Rodrigo Melgar - June 2014
+
 ##==========================================##         
 ## PREPARE THE ACTIVITY AND VARIABLE NAMES  ##
 ##==========================================##      

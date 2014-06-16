@@ -1,5 +1,5 @@
-CodeBoook for **run_analysis.R** script
-=======================================
+CodeBook for **run_analysis.R** script
+===============================
 
 
 ### How the data are extracted and merged

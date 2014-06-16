@@ -40,7 +40,7 @@ Test Data Sets:
 
 
 ### Output Data Sets
-This repository contains R script file named **`run_analysis.R`**. When the script is ran in the same working directory where the `Human Activity Recognition Database` is stored, it will generate two output data:
+This repository contains R script file named [**run_analysis.R**](https://github.com/rodmel/CleaningData/blob/master/run_analysis.R). When the script is ran in the same working directory where the `Human Activity Recognition Database` is stored, it will generate two output data:
 * **`averages.txt`** -- this file contains the average for each variable for each activity for each subject.
 * **`mergedset.txt`** -- this is the optional file to show the main data source of the **`aveages.txt`** to analyze further how each average in `averages.txt` is obtained. This file contains the merged **training** and **test** data sets of `Human Activity Recognition Database` with various mean and standard deviation readings. It also contains a variable called `settype` to identify records from test set and training set.
 

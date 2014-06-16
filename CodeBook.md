@@ -129,7 +129,7 @@ Variable Names:
 
 
 
-### Structure of the optional output file *mergeset.txt*
+### Structure of the optional output file *mergedset.txt*
 
 Variable Names of the **mergeset.txt** is the same as in *averages.txt* except for additional variable called **settype**. It contains a 2 level factor with values "test" or "train" to determine test/train records. This variable is not used when generating *averages.txt* but included only in case it is needed in the future analyses.
   1. subject
